@@ -1,0 +1,98 @@
+body{
+    background-color: #8e48ff;
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    font-family: "Merriweather", serif;
+    font-weight: 300;  
+    font-style: normal;
+}
+h1{
+    color: rgb(62, 62, 62);
+  font-family: "Roboto Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+}
+#city{
+    width: 90%;
+    margin-left: 10px;
+    margin-bottom: 7px;
+}
+.weatherContainer{
+    background-color: rgba(255,255,255,0.3);
+    backdrop-filter:blur(15px);
+    box-shadow: 10px 10px 5px 8px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    border: 2px solid rgb(204, 138, 246);
+    padding: 20px;
+    text-align: center;
+}
+h2,label,p{
+    margin:8px 0;
+    color: white;
+}
+input{
+    width: calc(100%-16px);
+    margin-top: 15px;
+    border-radius: 8px;
+    border: 1px solid white;
+    padding: 9px;
+    box-sizing: border-box;
+    font-size: 20px;
+}
+button{
+    background: rgb(204, 138, 246);
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    color: white;
+    border: 1px solid white;
+    width: 100px;
+    margin-top: 15px;
+    font-size: 15px;
+}
+button:hover{
+    background: #8e48ff;
+}
+#temperature p{
+    font-size: 50px;
+    margin-top: -50px;
+    font-family: "Gwendolyn", cursive;
+    font-weight: 400;
+}
+#info{
+    font-size: 30px;
+    font-family: "Gwendolyn", cursive;
+    font-weight: 400;
+}
+#weatherIcon{
+    display: none;
+    height: 30vh;
+    width: 25vh;
+    margin: 0 auto 10px;
+    margin-bottom: 0;
+}
+#dayForecast{
+    display: flex;
+    margin-top: 40px;
+    overflow-x: auto;
+    justify-content: space-between;
+    white-space: nowrap;   
+}
+.hourly-item{
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    align-items: center;
+    width: 15vh;
+}
+.hourly-item img{
+    width: 6vh;
+    height: 6vh;
+    margin-bottom: 5px;
+}

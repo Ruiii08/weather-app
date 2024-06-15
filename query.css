@@ -1,0 +1,28 @@
+@media (max-width:900px) {
+    .weatherContainer{
+        max-width: 350px;
+    }
+    #weatherIcon{
+        height: 12vh;
+        width: 12vh;
+        margin-bottom: 40px;
+    }
+    #temperature p{
+        font-size: 40px;
+    }
+    #info{
+        font-size: 30px;
+    }
+    #city{
+        width: 60%;
+        margin-bottom: 1px;
+        padding: 5px;
+        margin: 0;
+    }
+    h1{
+        font-size: 40px;
+        padding: 0;
+        margin: 0;
+    }
+    
+}
